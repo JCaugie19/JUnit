@@ -9,7 +9,7 @@ public class StringUtilsTest {
 
 	@Test
 	public void testCaesarCipherSimple() {
-		assertEquals("BCD", StringUtils.caesarCipher("ABC", 1));  
+		assertEquals("BCD", StringUtils.caesarCipher("ABC", 1));   
 		assertEquals("CDE", StringUtils.caesarCipher("ABC", 2));
 		assertEquals("GOW", StringUtils.caesarCipher("EMU", 2));
 	}
