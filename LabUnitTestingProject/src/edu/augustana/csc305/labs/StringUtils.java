@@ -30,7 +30,7 @@ public class StringUtils {
 				output.append(' ');
 			} else // it's an upper case letter of the alphabet
 			{
-				char newCh = (char) (ch + keyShiftAmount);
+				char newCh = (char) (ch + keyShiftAmount); 
 				if (newCh > 'Z') {
 					newCh = (char) (newCh - 26);
 				}

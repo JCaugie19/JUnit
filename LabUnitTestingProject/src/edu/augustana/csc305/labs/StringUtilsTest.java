@@ -17,7 +17,7 @@ public class StringUtilsTest {
 	@Test
 	public void testCaesarCipherSimpleBackward() {
 		assertEquals("ABC", StringUtils.caesarCipher("BCD", -1));
-		assertEquals("EMU", StringUtils.caesarCipher("GOW", -2));
+		assertEquals("EMU", StringUtils.caesarCipher("GOW", -2)); 
 	}
 
 	@Test
