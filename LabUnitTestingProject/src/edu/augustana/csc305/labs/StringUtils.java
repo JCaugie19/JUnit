@@ -22,7 +22,7 @@ public class StringUtils {
 	 * @return the encoded text 
 	 */
 	public static String caesarCipher(String message, int keyShiftAmount) {
-		StringBuilder output = new StringBuilder();
+		StringBuilder output = new StringBuilder(); 
 
 		for (int i = 0; i < message.length(); i++) {
 			char ch = message.charAt(i);
