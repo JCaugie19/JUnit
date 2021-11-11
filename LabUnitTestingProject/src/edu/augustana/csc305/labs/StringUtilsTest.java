@@ -30,7 +30,16 @@ public class StringUtilsTest {
 		assertEquals("", StringUtils.caesarCipher("", 10)); // always test the corner cases! 
 		// ADD your own assert tests here, to find any remaining bugs in this code
 	}
+	
+	@Test
+	public void testCaesarCipherWithZ() {
+		assertEquals("ABC", StringUtils.caesarCipher("XYZ", 3));
+	}
 
+	@Test
+	public void testCaesarCipherWithDoubleSpaces() {
+		assertEquals(" UIF  IBQQZ  NPPTF ", StringUtils.caesarCipher(" THE  HAPPY  MOOSE ", 1));
+	}
 
 
 }
