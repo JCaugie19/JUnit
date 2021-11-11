@@ -10,7 +10,7 @@ class HannaldousTest {
 	@Test
 	public void testHowBad() {
 		String[] passwords = new String[] { "bigmoose$", "emusareawesome", "123goodbye", "ok&y", "17", "cat" };
-		assertEquals(4, Hannaldous.numLettersCase(5, passwords));
+		assertEquals(4, Hannaldous.numLettersCase(5, passwords)); 
 	}
 	@Test
 	public void testHowBadNCase() {
